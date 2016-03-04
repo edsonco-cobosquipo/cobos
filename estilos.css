@@ -1,0 +1,57 @@
+body{
+	background: green;
+}
+.menu-lista{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+	}
+	.menu-item{
+		display: inline-block;
+
+	}
+	.menu-link{
+		padding:  10px;
+		border-radius: 10px;
+		text-decoration:none;
+
+	}
+	nav{
+		text-align: center;
+
+	}
+	.menu-link{
+		font-size: 25px;
+		background: grey;
+		color: white;
+
+	}
+		.menu-link:hover{
+		text-decoration: underline;
+		box-shadow: 5px 5px 15px palegreen;
+		transition: 0.55;
+	}
+	.img:hover{
+		text-decoration: underline;
+		box-shadow: 5px 5px 15px yellow;
+		transition: 0.55;
+	}
+		.imag{
+		font-size: 25px;
+		background: yellow;
+		color: red;
+	}
+	.img{
+		padding:  15px;
+		border-radius: 15px;
+		text-decoration:none;
+	}
+	img{
+		text-align: center;
+	}
+	.contenedor{
+	
+	width: 960px;
+	margin: 0 auto;
+}
